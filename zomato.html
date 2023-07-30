@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--importing font style by searching google fonts and select the required font and copying the link given. The link should be pasted before linking style.css-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Zomato Clone</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="images/Zomato_logo.png" alt="logo" class="navbar_logo">
+            </div>
+            <div class="navbar_nav_items">
+                <button class="nav_item button_primary">Order Food</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!--hero section-->
+        <section class="hero_container">
+            <div class="hero_image_container">
+                <img src="images/1401021.jpg" alt="hero img">
+            </div>
+            <div class="hero_description">
+                <h1 class="hero_text">
+                    Order food from favourite restaurants near you.
+                </h1>
+                <button class="button_primary">Order Now</button>
+            </div>
+        </section>
+
+        <!--Explore Menu-->
+        <section class="explore_menu_container">
+            <h1 class="explore_menu_text">Explore Our Menu</h1>
+            <div class="explore_menu_lists">
+
+                <!--Burger-->
+                <div class="food_card">
+                    <div class="food_card_image_container">
+                        <img src="images/burger.jpg" alt="burger" class="food_image">
+                    </div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Burger</h3>
+                        <p>Burger King, Mcdonalds, Burger Place <span style="color:#D83A56 ;">+3</span></p>
+                    </div>
+
+                </div>
+
+                <!--Pizza-->
+                <div class="food_card" id="pizza_card">
+                    <div class="food_card_image_container">
+                        <img src="images/pizza.jpg" alt="pizza" class="food_image">
+                    </div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Pizza</h3>
+                        <p>Pizza Hut, Domino's Pizza,  Healthyzone <span style="color:#D83A56 ;">+2</span></p>
+                    </div>
+
+                </div>
+
+                <!--Ics Creams-->
+                <div class="food_card">
+                    <div class="food_card_image_container">
+                        <img src="images/ice-cream.jpg" alt="ice-cream" class="food_image">
+                    </div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Ice-Cream</h3>
+                        <p> Boomerang, Burger King, Ashok Coconut Sharbad <span style="color:#D83A56 ;">+3</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
